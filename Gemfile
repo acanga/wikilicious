@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "rails", "3.2.6"
 gem "jquery-rails"
 gem "inherited_resources"
+gem "devise"
 gem "unicorn"
 gem "pg"
 
