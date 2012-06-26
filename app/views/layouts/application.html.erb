@@ -1,14 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Wikilicious</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
 
-<%= yield %>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <%= csrf_meta_tags %>
 
-</body>
+    <title>Wikilicious</title>
+
+    <%= stylesheet_link_tag "application", :media => "all" %>
+  </head>
+  <body>
+    <div id="main_content">
+      <div id="menu">
+        <p>
+          <%= link_to "Login", new_user_session_path %> |
+          <%= link_to "Sign Up", new_user_registration_path %>
+        </p>
+      </div>
+
+      <br clear="all">
+
+      <%= yield %>
+
+      <br clear="all">
+    </div>
+
+    <%= javascript_include_tag "application" %>
+  </body>
 </html>
