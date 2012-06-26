@@ -1,0 +1,39 @@
+Static Pages:
+ ☐ Landing page
+
+Users:
+ ☐ Sign up
+ ☐ Sign in
+ ☐ Edit user
+ ☐ Reset password
+ ☐ Upgrade to paid account
+ ☐ Downgrade to free account
+ ☐ Invite user
+ ☐ Accept invitation
+
+Wiki:
+  ☐ List wikis
+  ☐ Create wiki
+  ☐ Edit wiki
+  ☐ Remove wiki
+  ☐ Invite user to wiki
+  ☐ Accept invitation to wiki
+  ☐ Nominate a new admin
+  ☐ Make it public
+
+Articles:
+ ☐ List articles
+ ☐ Add article
+ ☐ Edit article
+ ☐ Show article
+ ☐ Remove article
+ ☐ Rescue article from trash bin
+
+Comments:
+ ☐ Comment on wiki
+ ☐ Comment on article
+ ☐ Show comments on wikis
+ ☐ Show comments on articles
+
+Payments:
+ ☐ Pay a subscription
