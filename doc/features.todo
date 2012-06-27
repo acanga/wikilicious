@@ -1,32 +1,32 @@
 Static Pages:
- ☐ Landing page
+ ☐ Landing page @version_1_0
 
 Users:
- ☐ Sign up
- ☐ Sign in
+ ☐ Sign up @version_1_0
+ ☐ Sign in @version_1_0
  ☐ Edit user
  ☐ Reset password
  ☐ Upgrade to paid account
  ☐ Downgrade to free account
- ☐ Invite user
- ☐ Accept invitation
+ ☐ Invite user @version_1_0
+ ☐ Accept invitation @version_1_0
 
 Wiki:
-  ☐ List wikis
-  ☐ Create wiki
-  ☐ Edit wiki
-  ☐ Remove wiki
-  ☐ Invite user to wiki
-  ☐ Accept invitation to wiki
+  ☐ List wikis @version_1_0
+  ☐ Create wiki @version_1_0
+  ☐ Edit wiki @version_1_0
+  ☐ Remove wiki @version_1_0
+  ☐ Invite user to wiki @version_1_0
+  ☐ Accept invitation to wiki @version_1_0
   ☐ Nominate a new admin
   ☐ Make it public
 
 Articles:
- ☐ List articles
- ☐ Add article
- ☐ Edit article
- ☐ Show article
- ☐ Remove article
+ ☐ List articles @version_1_0
+ ☐ Add article @version_1_0
+ ☐ Edit article @version_1_0
+ ☐ Show article @version_1_0
+ ☐ Remove article @version_1_0
  ☐ Rescue article from trash bin
 
 Comments:
