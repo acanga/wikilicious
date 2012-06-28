@@ -23,7 +23,6 @@ a:hover
 
 #content
 {
-  height: auto;
   margin-bottom: 60px;
   width: 990px;
 }
@@ -41,7 +40,6 @@ a:hover
   float: right;
   font-size: 14px;
   margin-top: 25px;
-  width: 100px;
 }
 
 #menu .menu_items_separator
