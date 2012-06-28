@@ -14,8 +14,9 @@ Users:
 Wiki:
   ☐ List wikis @version_1_0
   ☐ Create wiki @version_1_0
-  ☐ Edit wiki @version_1_0
-  ☐ Remove wiki @version_1_0
+  ☐ Edit wiki
+  ☐ Show wiki @version_1_0
+  ☐ Remove wiki
   ☐ Invite user to wiki @version_1_0
   ☐ Accept invitation to wiki @version_1_0
   ☐ Nominate a new admin
@@ -23,10 +24,10 @@ Wiki:
 
 Articles:
  ☐ List articles @version_1_0
- ☐ Add article @version_1_0
- ☐ Edit article @version_1_0
+ ☐ Write article @version_1_0
+ ☐ Edit article
  ☐ Show article @version_1_0
- ☐ Remove article @version_1_0
+ ☐ Remove article
  ☐ Rescue article from trash bin
 
 Comments:
@@ -34,6 +35,20 @@ Comments:
  ☐ Comment on article
  ☐ Show comments on wikis
  ☐ Show comments on articles
+ ☐ Edit comments on wikis
+ ☐ Edit comments on articles
+ ☐ Delete comments on wikis
+ ☐ Delete comments on articles
 
 Payments:
  ☐ Pay a subscription
+
+Contact messages:
+ ☐ List contact messages
+ ☐ Write contact message
+ ☐ Send SMS notification on new contact messages
+ ☐ Send email notification on new contact messages
+ ☐ Show contact message
+ ☐ Mark contact message as read
+ ☐ Answer contact message
+ ☐ Show all messages exchanged with any user/visitor
