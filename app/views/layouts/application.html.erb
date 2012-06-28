@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <%= csrf_meta_tags %>
+
+    <title>Wikilicious</title>
+
+    <%= stylesheet_link_tag "application", :media => "all" %>
+  </head>
+  <body>
+    <div id="content">
+      <% if not landing_page_is_current_page? %>
+        <div id="small_logo">
+          <p>
+            <%= link_to image_tag("small_logo.png"), root_path %>
+          </p>
+        </div>
+      <% end %>
+
+      <%= render :partial => "menu" %>
+
+      <br clear="all">
+
+      <%= yield %>
+
+      <br clear="all">
+    </div>
+
+    <%= javascript_include_tag "application" %>
+  </body>
+</html>

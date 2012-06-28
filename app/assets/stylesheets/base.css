@@ -11,29 +11,37 @@ body
   font-size: 12px;
 }
 
-#main_content
+a
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #16ae65;
+}
+
+#content
 {
   height: auto;
   margin-bottom: 60px;
   width: 990px;
 }
 
+#small_logo
+{
+  float: left;
+  height: 42px;
+  margin: 23px 0;
+  width: 166px;
+}
+
 #menu
 {
   float: right;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 25px;
   width: 100px;
-}
-
-#menu a
-{
-  text-decoration: none;
-}
-
-#menu a:hover
-{
-  color: #16ae65;
 }
 
 #menu .menu_items_separator
