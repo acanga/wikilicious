@@ -1,0 +1,31 @@
+<div class="box">
+  <%= image_tag "sign_in.png", :class => :box_header_image %>
+
+  <h2>Sign in</h2>
+
+  <%= form_for(@user, :url => sign_in_path) do |f| %>
+    <div class="field">
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+    </div>
+
+    <div class="field">
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+    </div>
+
+    <div class="check_box field">
+      <%= f.check_box :remember_me %>
+      <%= f.label :remember_me %>
+    </div>
+
+    <div class="links">
+      <%= link_to "Sign up", sign_up_path %>
+      <%= link_to "Forgot your password?", new_user_password_path %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Sign in" %>
+    </div>
+  <% end %>
+</div>
