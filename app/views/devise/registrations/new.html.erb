@@ -3,20 +3,29 @@
 
   <h2>Sign up</h2>
 
-  <%= form_for(resource, :as => resource_name, :url => sign_up_path) do |f| %>
-    <div class="fields">
+  <%= form_for(@user, :url => sign_up_path) do |f| %>
+    <div class="field">
       <%= f.label :email %>
       <%= f.email_field :email %>
+      <span class="field_error_message">
+        <%= @user.errors[:email].first.try(:capitalize) %>
+      </span>
     </div>
 
-    <div class="fields">
+    <div class="field">
       <%= f.label :password %>
       <%= f.password_field :password %>
+      <span class="field_error_message">
+        <%= @user.errors[:password].first.try(:capitalize) %>
+      </span>
     </div>
 
-    <div class="fields">
+    <div class="field">
       <%= f.label :password_confirmation %>
       <%= f.password_field :password_confirmation %>
+      <span class="field_error_message">
+        <%= @user.errors[:password_confirmation].first.try(:capitalize) %>
+      </span>
     </div>
 
     <div class="links">
