@@ -1,0 +1,68 @@
+.field
+{
+  margin-top: 27px;
+  position: relative;
+}
+
+.field label
+{
+  display: block;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.field input
+{
+  border-radius: 5px;
+  border: 1px solid #969697;
+  font-size: 15px;
+  height: 30px;
+  padding: 0 5px;
+  width: 240px;
+}
+
+.check_box.field input
+{
+  height: 20px;
+  width: 20px;
+}
+
+.check_box.field label
+{
+  display: inline;
+  margin: 0
+}
+
+.field_with_errors
+{
+  margin: 0;
+  padding: 0;
+}
+
+.field .field_with_errors input
+{
+  border-color: #f00;
+}
+
+.field_error_message
+{
+  color: #f00;
+  padding-top: 1px;
+  position: absolute;
+}
+
+.actions input
+{
+  border-radius: 5px;
+  border: 1px solid #969697;
+  bottom: 15px;
+  color: #0b5230;
+  float: right;
+  font-family: "Noteworthy Light";
+  font-size: 16px;
+  height: 35px;
+  padding-bottom: 4px;
+  position: absolute;
+  right: 50px;
+  width: 95px;
+}

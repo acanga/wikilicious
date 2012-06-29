@@ -46,3 +46,18 @@ a:hover
 {
   font-size: 15px;
 }
+
+.flash_message
+{
+  font-size: 25px;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 144px;
+  width: 990px;
+}
+
+.alert.flash_message
+{
+  color: #f00;
+}
