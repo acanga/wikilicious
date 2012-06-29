@@ -29,8 +29,9 @@
 
 .check_box.field label
 {
-  display: inline;
-  margin: 0
+  left: 25px;
+  position: absolute;
+  top: 1px;
 }
 
 .field_with_errors
