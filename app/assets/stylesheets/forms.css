@@ -21,6 +21,11 @@
   width: 240px;
 }
 
+.field input.active
+{
+  border: 1px solid #488ff1;
+}
+
 .check_box.field input
 {
   height: 20px;
