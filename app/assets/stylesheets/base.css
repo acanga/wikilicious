@@ -21,6 +21,11 @@ a:hover
   color: #16ae65;
 }
 
+img
+{
+  border: none;
+}
+
 #content
 {
   margin-bottom: 60px;

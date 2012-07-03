@@ -1,0 +1,19 @@
+.check_box.field input, .check_box.field input.active
+{
+  border-radius: 0 !important;
+  border-style: none !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.actions input
+{
+  padding-bottom: 0;
+  padding-top: 2px;
+}
+
+.try_it_container a
+{
+  padding-bottom: 0;
+}

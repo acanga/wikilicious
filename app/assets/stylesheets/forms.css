@@ -29,11 +29,14 @@
 .field input.active
 {
   border: 1px solid #488ff1;
+  outline: none;
 }
 
 .check_box.field input
 {
+  border: 0;
   height: 20px;
+  outline: none;
   width: 20px;
 }
 
@@ -64,6 +67,7 @@
 
 .actions input
 {
+  background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #969697;
   bottom: 15px;
