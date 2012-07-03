@@ -1,0 +1,34 @@
+<div class="large box">
+  <%= image_tag "change_your_password.png", :class => :box_header_image %>
+
+  <h2>Change your password</h2>
+
+  <%= form_for(@user, :url => edit_password_path, :html => { :method => :put }) do |f| %>
+    <%= f.hidden_field :reset_password_token %>
+
+    <div class="field">
+      <%= f.label :password, "New password" %>
+      <%= f.password_field :password %>
+      <span class="field_error_message">
+        <%= @user.errors[:password].first.try(:capitalize) %>
+      </span>
+    </div>
+
+    <div class="field">
+      <%= f.label :password_confirmation, "Confirm your new password" %>
+      <%= f.password_field :password_confirmation %>
+      <span class="field_error_message">
+        <%= @user.errors[:password_confirmation].first.try(:capitalize) %>
+      </span>
+    </div>
+
+    <div class="links">
+      <%= link_to "Sign up", sign_up_path %>
+      <%= link_to "Login", sign_in_path %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Change my password" %>
+    </div>
+  <% end %>
+</div>
