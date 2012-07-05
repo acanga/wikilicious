@@ -6,5 +6,7 @@ Wikilicious::Application.routes.draw do
     put "/users/password/edit" => "devise/passwords#update", :as => :edit_password
   end
 
+  resources :wikis
+
   root :to => "high_voltage/pages#show", :id => "index"
 end
