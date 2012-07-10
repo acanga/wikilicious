@@ -1,8 +1,8 @@
 class Wiki < ActiveRecord::Base
   attr_accessible :name, :description
 
-  belongs_to :user, :foreign_key => :owner_id
+  belongs_to :owner, :class_name => "User"
 
-  validates_presence_of :name, :description
-  validates_uniqueness_of :name, :case_sensitive => :false
+  validates_presence_of :name
+  validates_uniqueness_of :name, :scope => :owner_id, :case_sensitive => :false
 end
